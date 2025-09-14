@@ -1,27 +1,19 @@
-# 🎬 IMDb Movie Review Sentiment Analysis (LSTM)
+# 🎬 IMDb Movie Review Sentiment Analysis (LSTM-based)
 
-This project uses an LSTM (Long Short-Term Memory) neural network to perform **binary sentiment classification** (positive/negative) on the IMDb movie reviews dataset.
+This project builds a **binary sentiment classifier** using deep learning (LSTM) to predict whether a movie review is **positive 😊** or **negative 😞**. The model is trained on the [IMDb 50K Movie Review Dataset](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews).
 
-## 📌 Features
+---
 
-- Preprocessing with Keras `Tokenizer` and padding
-- Binary classification using Bidirectional LSTM
-- Interactive prediction via command-line input
-- Model + tokenizer saving for future use
+## 🚀 Model Highlights
 
-## 🧠 Model Summary
+- ✅ Built with TensorFlow/Keras
+- 📊 Uses **Bidirectional LSTM**
+- 🧠 Trained on 50,000 IMDb reviews
+- 🔤 Custom Tokenizer + Padding
+- 💾 Saved model and tokenizer for real-time predictions
 
-- Embedding → Bidirectional LSTM → Dense Layers
-- Binary Crossentropy Loss + Adam Optimizer
-- 3 training epochs, 200 sequence length
+---
 
-## 🛠️ Requirements
-
-Install all dependencies:
-
-```bash
-pip install -r requirements.txt
-
-
+## 🗂️ Project Structure
 
 
