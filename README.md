@@ -1,3 +1,30 @@
+# 🎬 IMDb Movie Review Sentiment Analysis
+
+This project uses an LSTM-based neural network built with Keras/TensorFlow to classify movie reviews from the IMDb dataset as **positive** or **negative**.
+
+---
+
+## 📁 Dataset
+
+- Source: [IMDb Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
+- Columns: `review`, `sentiment`
+
+---
+
+## 🧠 Model Architecture
+
+- Embedding Layer (10000 vocab size)
+- Bidirectional LSTM Layer
+- Dense Layer with ReLU
+- Output Layer with Sigmoid
+
+---
+
+## 🏁 How to Run
+
+```bash
+pip install -r requirements.txt
+python imdb_lstm_sentiment.py
 
 # 🎬 IMDb LSTM Sentiment Analysis
 
